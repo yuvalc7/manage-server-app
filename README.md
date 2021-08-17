@@ -1,4 +1,4 @@
-# manage-server-fullStack-app - a web app that allow the user to manage servers.
+# manage-server-app - a fullStack web app that allow the user to manage servers.
 
 ## about the project
 
