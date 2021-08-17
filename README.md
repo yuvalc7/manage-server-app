@@ -2,27 +2,27 @@
 
 ## about the project
 
-A server is defined as
-IP Address (String)
-Name (String)
-Type (Server Type)
-isRunning (Boolean)
+A server is defined as:  
+IP Address (String)  
+Name (String)  
+Type (Server Type)  
+isRunning (Boolean)  
 
-Server Type is defined as
-Name
-Price Per Minute (In $)
+Server Type is defined as:  
+Name  
+Price Per Minute (In $)  
 
-The User able to see all servers
-The User able to create a server and choose from server type
-The User able to start a server
-The User able to stop a server
-The User able to delete a server
-The User able to know what is the price for a running server
+The User able to see all servers  
+The User able to create a server and choose from server type  
+The User able to start a server  
+The User able to stop a server  
+The User able to delete a server  
+The User able to know what is the price for a running server  
 The price for a running server is defined as the time in minutes that the server runs
-multiplied by the price of the server type
+multiplied by the price of the server type  
 The price applied only for the time that the server was in running state
-(isRunning=True).
-The User able to change the price currency
+(isRunning=True).  
+The User able to change the price currency  
 
 ## technologies:    
            Front-end: React    
