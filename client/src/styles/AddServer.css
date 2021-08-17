@@ -1,0 +1,47 @@
+.add-server-container {
+  width: 35%;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: flex-start;
+  display: flex;
+  margin: 10px 0;
+  align-items: center;
+  border-radius: 6px;
+  padding: 25px;
+  box-shadow: 0px 2px 1px 0px rgb(0 0 0 / 8%), 0px 1px 1px 0px rgb(0 0 0 / 36%),
+    0px 1px 3px 0px rgb(0 0 0 / 30%);
+}
+
+.input-server-data-container {
+  display: flex;
+  margin: 15px 0;
+}
+
+.input-server-data {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.select-server-and-add-button-container {
+  display: flex;
+  margin: 15px 0;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+
+.lable-inputs {
+  width: min-content;
+  font-size: 15px;
+  margin-right: 5px;
+  height: 30px;
+}
+
+.error {
+  color: red;
+  position: absolute;
+  margin: 0;
+  top: 45px;
+  right: 55px;
+}
