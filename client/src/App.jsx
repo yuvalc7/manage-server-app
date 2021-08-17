@@ -25,7 +25,7 @@ class App extends Component {
     servers: [],
     currency: "",
     converter: 1,
-    converterSymbl: "$",
+    converterSymbol: "$",
     indexCurrencyTypes: 0,
   };
 
@@ -144,12 +144,12 @@ class App extends Component {
       this.setState({ currency: name });
       let { data } = await getConverCurrency(name);
       let converter = Object.values(data)[0];
-      this.setState({ converter, converterSymbl: symbol });
+      this.setState({ converter, converterSymbol: symbol });
     });
   };
 
   render() {
-    const { servers, converter, converterSymbl } = this.state;
+    const { servers, converter, converterSymbol } = this.state;
     return (
       <div className="app flex ">
         <AddServer handleSubmit={this.handleSubmit} />
@@ -159,7 +159,7 @@ class App extends Component {
         <DataTable
           servers={servers}
           converter={converter}
-          converterSymbl={converterSymbl}
+          converterSymbol={converterSymbol}
           // funcs
           handleUpdate={this.handleUpdate}
           handleDelete={this.handleDelete}
